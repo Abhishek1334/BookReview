@@ -1,0 +1,270 @@
+# Book Review Platform - Monorepo .gitignore
+
+# =======================
+# Dependencies
+# =======================
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =======================
+# Environment Variables
+# =======================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# =======================
+# Build Outputs
+# =======================
+# Client (Vite/React)
+client/dist/
+client/dist-ssr/
+client/.vite/
+client/build/
+
+# Server (Node.js)
+server/dist/
+server/build/
+
+# General build outputs
+**/dist/
+**/build/
+
+# =======================
+# Logs
+# =======================
+logs/
+*.log
+
+# =======================
+# Runtime & Cache
+# =======================
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Cache directories
+.npm
+.yarn
+.pnp
+.pnp.js
+.cache/
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# =======================
+# Testing & Coverage
+# =======================
+coverage/
+*.lcov
+.nyc_output
+.coverage
+.coverage.*
+
+# =======================
+# Package Manager
+# =======================
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# npm
+*.tgz
+package-lock.json
+
+# pnpm
+.pnpm-debug.log*
+
+# =======================
+# Development Tools
+# =======================
+# Vite
+.vite/
+*.local
+
+# Next.js (if used)
+.next/
+
+# Webpack
+.webpack/
+
+# =======================
+# Editor & IDE
+# =======================
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# =======================
+# Operating System
+# =======================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# =======================
+# Deployment & Production
+# =======================
+# Production builds
+/dist
+/build
+
+# Deployment scripts
+/deploy
+*.tar.gz
+*.zip
+
+# Docker
+.dockerignore
+Dockerfile.prod
+
+# =======================
+# Database & Storage
+# =======================
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# File uploads (if stored locally)
+uploads/
+public/uploads/
+server/uploads/
+client/uploads/
+
+# =======================
+# Process Management
+# =======================
+# PM2
+.pm2/
+ecosystem.config.js
+
+# =======================
+# Security & Secrets
+# =======================
+# API keys and secrets
+.secrets
+*.pem
+*.key
+*.crt
+*.cert
+
+# =======================
+# Backup & Temporary
+# =======================
+# Backup files
+*.backup
+*.bak
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# =======================
+# Monorepo Specific
+# =======================
+# Lerna
+lerna-debug.log*
+
+# Rush
+common/temp/
+common/scripts/
+
+# Nx
+.nx/cache
+
+# =======================
+# Platform Specific
+# =======================
+# Vercel
+.vercel
+
+# Netlify
+.netlify
+
+# Railway
+.railway
+
+# Heroku
+.heroku/
+
+# =======================
+# Miscellaneous
+# =======================
+# Sass
+.sass-cache/
+
+# Parcel
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional REPL history
+.node_repl_history 
