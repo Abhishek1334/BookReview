@@ -1,5 +1,7 @@
 # Book Review Platform 📚
 
+## [Live Site](https://book-review-one-ecru.vercel.app/)
+
 A modern full-stack web application for discovering, reviewing, and managing books. Built with React, Node.js, and MongoDB, featuring a responsive design and comprehensive admin dashboard.
 
 ## 🌟 Key Features
